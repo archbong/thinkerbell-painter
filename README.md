@@ -1,7 +1,3 @@
-Certainly! A README file is a crucial part of any project, providing essential information for developers, collaborators, and users. Here's a template you can use for your project:
-
----
-
 # The Beard Painter Website
 
 ## Overview
@@ -12,9 +8,10 @@ The Beard Painter website is a portfolio site for a professional painter showcas
 
 ```
 /the-beard-painter
-|-- /css
-|-- /js
-|-- /images
+|-- /styles
+|   |-- main.css
+|   |-- /js
+|   |-- /images
 |-- /php
 |-- index.html
 |-- about.html
