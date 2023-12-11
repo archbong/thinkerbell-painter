@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>The Beard Painter</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">The Beard Painter</div>
+            <div class="flex space-x-4">
+                <a href="/" class="hover:text-gray-500">Home</a>
+                <a href="/about" class="hover:text-gray-500">About</a>
+                <a href="/portfolio" class="hover:text-gray-500">Portfolio</a>
+                <a href="/contact" class="hover:text-gray-500">Contact</a>
+                <a href="/quotation" class="hover:text-gray-500">Quotation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <img src="images/logo.png" alt="The Beard Painter Logo" class="mx-auto mb-8 w-32 h-32">
+            <h1 class="text-4xl font-bold mb-4">Welcome to The Beard Painter</h1>
+            <p class="text-gray-700 leading-loose">
+                Explore the captivating world of art created by The Beard Painter. Each stroke tells a story, and every
+                canvas is a masterpiece.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Featured Work</h2>
+            <!-- Add images and captions for the portfolio -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <img src="images/painting1.jpg" alt="Painting 1" class="w-full h-64 object-cover mb-4">
+                    <p class="text-gray-700">Sunset Dreams</p>
+                </div>
+                <div>
+                    <img src="images/painting2.jpg" alt="Painting 2" class="w-full h-64 object-cover mb-4">
+                    <p class="text-gray-700">Abstract Waves</p>
+                </div>
+                <div>
+                    <img src="images/painting3.jpg" alt="Painting 3" class="w-full h-64 object-cover mb-4">
+                    <p class="text-gray-700">Nature's Harmony</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <p class="text-gray-400 mb-8">
+                Have a project in mind or just want to say hello? Reach out to The Beard Painter!
+            </p>
+            <a href="contact" 
+                class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-200">
+                Contact Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2023 The Beard Painter. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
